@@ -1,12 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar {
 background:turquoise;
 font-size: 1.2em;
-padding: 1em;
+padding: 2px;
 text-align: center;
 position: fixed;
 width: 100%;
-top: 0;
-z-index: 1000;
+position: relative;
+top: 0
 }
 
 .navbar ul{
@@ -17,11 +23,15 @@ z-index: 1000;
 
 .navbar ul li{
     display: inline;
-    margin: 0 1em;
+    margin: 1em;
 }
 
 .navbar a{
     color: #fff;
+}
+
+#about-me{
+    padding-top: 80px;
 }
 
 .main-content{
@@ -85,4 +95,5 @@ z-index: 1000;
   position: relative;
   bottom: 0;
   width: 100%;
+  padding: 2px;
 }
