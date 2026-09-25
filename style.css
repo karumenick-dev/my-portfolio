@@ -28,9 +28,16 @@ z-index: 1000;
     padding-top: 5em;
 }
 
+
 .main-content section{
     padding-bottom: 1em 2em;
     text-align: center;
+}
+
+.avatar-img{
+    width: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 #home h1{
