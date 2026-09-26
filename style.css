@@ -5,43 +5,22 @@
 }
 
 .navbar {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+justify-content: center;
+align-items: center;
+text-align: center;
+list-style: none;
 background:turquoise;
 font-size: 1.2em;
 padding: 2px;
-text-align: center;
 position: fixed;
 width: 100%;
 position: relative;
 top: 0
 }
 
-.navbar ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li{
-    display: inline;
-    margin: 1em;
-}
-
-.navbar a{
-    color: #fff;
-}
-
-#about-me{
-    padding-top: 80px;
-}
-
-.main-content{
-    padding-top: 5em;
-}
-
-
-.main-content section{
-    padding-bottom: 1em 2em;
-    text-align: center;
+.hero-section {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .avatar-img{
@@ -50,44 +29,24 @@ top: 0
     height: auto;
 }
 
-#home h1{
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+.skills {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-#home p{
-    font-size: 1.2em;
-    color: #666;
+.projects{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    margin: 1em;
 }
 
-.portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 1em;
+.contact-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.portfolio-item {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  margin: 1em;
-  padding: 1em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 30%;
-  box-sizing: border-box;
-  transition: transform 0.3s;
-}
-
-.portfolio-item h3 {
-  font-weight: bold;
-  margin-bottom: 0.5em;
-}
-
-.portfolio-item:hover {
-  transform: scale(1.05);
-}
-
-#footer {
+.footer {
   background-color: turquoise;
   color: #fff;
   padding: 2em;
