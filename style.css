@@ -1,7 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-    box-sizing: border-box;
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+color:black;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+padding: 4rem 2rem;
+text-align: center;
 }
 
 .nav-links {
@@ -12,6 +17,8 @@ align-items: center;
 text-align: center;
 display: flex;
 list-style: none;
+line-height: 1.5;
+padding-top: 80px;
 gap: 20px;
 background:turquoise;
 font-size: 1.2em;
@@ -30,7 +37,7 @@ text-decoration: none;
 }
 
 .hero-section {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+max-width: 900px;
 }
 
 .avatar-img{
@@ -40,20 +47,20 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .skills {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 .projects{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline;
     margin: 1em;
 }
 
-.contact-content{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.skills ul,
+.projects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer {
