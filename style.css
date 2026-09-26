@@ -4,19 +4,29 @@
     box-sizing: border-box;
 }
 
-.navbar {
+.nav-links {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+color: #fff;
 justify-content: center;
 align-items: center;
 text-align: center;
+display: flex;
 list-style: none;
+gap: 20px;
 background:turquoise;
 font-size: 1.2em;
 padding: 2px;
-position: fixed;
-width: 100%;
 position: relative;
+width: 100%;
 top: 0
+}
+
+.nav-links a{
+color: #fff;
+text-decoration: none;
+}
+
+.nav-links a:hover{color: yellow;
 }
 
 .hero-section {
