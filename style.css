@@ -23,7 +23,6 @@ background:turquoise;
 font-size: 1.2em;
 position: relative;
 width: 100%;
-top: 0
 }
 
 .nav-links a{
@@ -66,10 +65,7 @@ margin: 0 auto;
 .footer {
   background-color: turquoise;
   color: #fff;
-  padding: 2em;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  width: 100%;
   padding: 2px;
+  text-align: center;
+  width: 100%;
 }
