@@ -28,9 +28,17 @@ width: 100%;
 .nav-links a{
 color: #fff;
 text-decoration: none;
+display: inline-block;
+padding: 5px 5px;
+transition:all 0.3s ease-in-out;
+background-color: black;
+font-weight: 300;
 }
 
-.nav-links a:hover{color: yellow;
+.nav-links a:hover{
+    color: black;
+    background-color: #fff;
+    transform: translateY(-1.5px);
 }
 
 .hero-section{
